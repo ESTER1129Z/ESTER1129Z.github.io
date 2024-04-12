@@ -25,7 +25,26 @@ div.tab {
 	animation-iteration-count: infinite;
 	animation-duration: 1s;
 }
+div.intro {
+   display: flex;
+   flex-wrap: wrap;
+}
 
+div.introcol {
+   width: 50%;
+   font-weight: bold;
+   font-size: 20px;
+   color: yellow;
+}
+div.main {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+div.headline {
+   font-size: 300px;
+   font-family: ;
+}
 div.two{
     all: initial;
     font: size 200px;
