@@ -17,7 +17,7 @@ body {
    align-items: center;
    justify-content: center;
    position: relative;
-   animation: likes 1s infinite alternate;
+   animation: likes 5s infinite;
 }
 
 .bi-ll {
@@ -56,7 +56,7 @@ body {
 }
 
 .obey {
-   color: white; /* OBEY 不变色 */
+   color: #b5ce5b; /* OBEY 不变色 */
 }
 
 .four {
@@ -76,24 +76,22 @@ body {
    transform: translate(0%,260%);
 }
 
-.left-obey {
+.left-obey, .right-buy-it {
    position: absolute;
    top: 0;
    bottom: 0;
-   left: 20px; /* 调整左边距 */
    font-size: 60px; /* 调整字体大小 */
    color: white;
-   writing-mode: vertical-rl; /* 垂直文字排列 */
 }
 
-.right-obey {
-   position: absolute;
-   top: 0;
-   bottom: 0;
+.left-obey {
+   left: 20px; /* 调整左边距 */
+   animation: scroll-left 5s linear infinite;
+}
+
+.right-buy-it {
    right: 20px; /* 调整右边距 */
-   font-size: 60px; /* 调整字体大小 */
-   color: white;
-   writing-mode: vertical-rl; /* 垂直文字排列 */
+   animation: scroll-right 5s linear infinite;
 }
 
 @font-face {
@@ -121,5 +119,23 @@ body {
    }
    100% {
        transform: scale(1);
+   }
+}
+
+@keyframes scroll-left {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(-100%);
+   }
+}
+
+@keyframes scroll-right {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(100%);
    }
 }
