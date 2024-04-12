@@ -2,6 +2,16 @@ body {
    background-color: #7764d3;
 }
 
+.animate-color {
+   animation: color-change 5s infinite alternate; /* 颜色变化动画 */
+}
+
+@keyframes color-change {
+   0% { color: white; }
+   50% { color: pink; } /* 中间点的颜色 */
+   100% { color: yellow; } /* 结束点的颜色 */
+}
+
 div.tab {
    width: 50%;
    font-size: 200px;
@@ -17,7 +27,12 @@ div.tab {
    align-items: center;
    justify-content: center;
    position: relative;
-   animation: likes 1s infinite alternate;
+   animation-name: likes;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+   animation-duration: 1s;
 }
 
 div.two {
@@ -53,9 +68,8 @@ div.three {
 
 div.four {
    width: 50%;
-   height: 290px;
    font-size: 200px;
-   text-align: center;
+   height: 290px;
    font-family: 'Cybrpnuk2';
    font-weight: bolder;
    color: white;
@@ -78,29 +92,19 @@ div.four {
 }
 
 @keyframes likes {
-   0%, 100% {
-       color: white;
-   }
-   25%, 75% {
-       color: pink;
-   }
-   50% {
-       color: yellow;
-   }
-}
-
-@keyframes zoom {
    0% {
        transform: scale(1);
    }
+   25% {
+       transform: scale(0.9);
+   }
    50% {
-       transform: scale(1.2);
+       transform: scale(0.85);
+   }
+   75% {
+       transform: scale(0.9);
    }
    100% {
        transform: scale(1);
    }
-}
-
-div.three p:nth-child(5) {
-   animation: zoom 5s infinite;
 }
