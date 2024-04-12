@@ -75,6 +75,26 @@ body {
    bottom: 0;
    transform: translate(0%,260%);
 }
+.left-text {
+   position: absolute;
+   top: 30%;
+   left: 10px; /* 调整左侧距离 */
+   transform: translateY(-30%);
+   font-size: 24px;
+   font-family: Arial;
+   color: rgb(239, 63, 63);
+}
+
+/* 右侧文字样式 */
+.right-text {
+   position: absolute;
+   top: 30%;
+   right: 10px; /* 调整右侧距离 */
+   transform: translateY(-30%);
+   font-size: 24px;
+   font-family: Arial;
+   color: rgb(239, 63, 63);
+}
 
 @font-face {
   font-family:'Cybrpnuk2';
