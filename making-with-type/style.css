@@ -56,7 +56,7 @@ body {
 }
 
 .obey {
-   color: #b5ce5b; /* OBEY 不变色 */
+   color: white; /* OBEY 不变色 */
 }
 
 .four {
@@ -80,35 +80,17 @@ body {
    position: absolute;
    top: 0;
    bottom: 0;
-   font-size: 10px; /* 调整字体大小 */
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   color: violet;
-}
-.left-scrolling-text {
-   position: fixed;
-   top: 50%; /* 调整位置 */
-   left: 10px; /* 调整左侧距离 */
-   transform: translateY(-50%);
-   font-size: 10px; /* 调整字体大小 */
-   color: violet;
-}
-
-.right-scrolling-text {
-   position: fixed;
-   top: 50%; /* 调整位置 */
-   right: 10px; /* 调整右侧距离 */
-   transform: translateY(-50%);
-   font-size: 10px; /* 调整字体大小 */
-   color: violet;
+   font-size: 60px; /* 调整字体大小 */
+   color: white;
 }
 
 .left-obey {
-   left: 10px; /* 调整左边距 */
+   left: 20px; /* 调整左边距 */
    animation: scroll-left 5s linear infinite;
 }
 
 .right-buy-it {
-   right: 10px; /* 调整右边距 */
+   right: 20px; /* 调整右边距 */
    animation: scroll-right 5s linear infinite;
 }
 
@@ -156,4 +138,4 @@ body {
    100% {
        transform: translateX(100%);
    }
-}
+} 
