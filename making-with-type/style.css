@@ -56,7 +56,7 @@ body {
 }
 
 .obey {
-   color: white; /* OBEY 不变色 */
+   color: #b5ce5b; /* OBEY 不变色 */
 }
 
 .four {
@@ -74,24 +74,6 @@ body {
    right: 0;
    bottom: 0;
    transform: translate(0%,260%);
-}
-
-.left-obey, .right-buy-it {
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   font-size: 60px; /* 调整字体大小 */
-   color: white;
-}
-
-.left-obey {
-   left: 20px; /* 调整左边距 */
-   animation: scroll-left 5s linear infinite;
-}
-
-.right-buy-it {
-   right: 20px; /* 调整右边距 */
-   animation: scroll-right 5s linear infinite;
 }
 
 @font-face {
