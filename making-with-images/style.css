@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(223, 91, 159);
+    background-image:
+        url(dui\ money.png), /* 第一张背景图片 */
+        url(back.JPG); /* 第二张背景图片（透明底 PNG 图片） */
+    background-size: cover, cover; /* 设置两张图片的背景大小，第一张 cover，第二张 auto */
+    background-position: center, center; /* 设置两张图片的背景位置 */
+    background-attachment: scroll, fixed; /* 设置背景图片固定 */
+    width: 100%;
+    opacity: 0.3, 1;
+}
+
+img {
+    width: 100%;
+}
+
+div.top {
+    width: 20%;
+    margin-left: 10cm;
+}
+
+div.middle {
+    width: 30%;
+    height: 200px;
+    margin-left: auto;
+    background-color: aqua;
+    background-image: url(marilyn.png);
+    background-repeat: repeat;
+    background-size: 60px;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+div.bottom {
+    height: 100px;
+}
+
+div.moneyimage {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+div.eyeball {
+    width: 600px;
+    /* height: 50px; */
+    background-position:center;
+    background-size: cover;
+    margin-left: 14cm;
+    background-attachment: fixed;
+}
+
+div.random {
+    transition: 3s;
+}
+
+div.item.a {
+    width: 25%;
+    margin-left: 10cm
+
+}
+
+div.item.b {
+    width: 35%;
+    height: 150px;
+    margin-left: auto;
+    background-color: aqua;
+    background-image: url(marilyn.png);
+    background-repeat: repeat;
+    background-size: 60px;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+div.item.c {
+    width: 30%;
+}
+
+div.item.one {
+    opacity: 0.7;
+    box-shadow:20px 30px 20px gainsboro;
+}
+
+div.item.two {
+    opacity: 0.7;
+    box-shadow:10px 20px 10px rgb(116, 189, 220);
+}
+
+div.item.three {
+    opacity: 0.9;
+}
+
+div.item.x {
+    margin-left: 15cm;
+}
+
+div.item.y {
+    margin-left: auto;
+    background-color: aqua;
+    background-image: url(marilyn.png);
+    background-repeat: repeat;
+    background-size: 60px;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+div.item.z {
+    margin-right: 5cm;
+}
+
+.eyeball{
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    height: 350px;
+}
