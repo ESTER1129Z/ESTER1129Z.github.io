@@ -21,7 +21,7 @@ body {
 }
 
 .bi-ll {
-   color: white; /* 文字变色 */
+   color: pink; /* 文字变色 */
 }
 
 .two {
@@ -75,7 +75,6 @@ body {
    bottom: 0;
    transform: translate(0%,260%);
 }
-
 
 @font-face {
   font-family:'Cybrpnuk2';
