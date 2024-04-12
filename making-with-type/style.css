@@ -1,122 +1,100 @@
 body {
-    background-color: #7764d3;
+   background-color: #7764d3;
 }
 
 div.tab {
-    width:50%;
-     font: size 400px;
-    font-size: 200px;
-    text-align:center;
-    font-family: 'Cybrpnuk2';
-    font-weight: bolder;
-    color: white;
-    position: absolute;
-    margin: auto;
-     left: 0;
-	right: 0;
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  position:relative;
-  animation-name: likes;
-	animation-direction: alternate;
-	animation-timing-function: linear;
-	animation-delay: 0s;
-	animation-iteration-count: infinite;
-	animation-duration: 1s;
+   width: 50%;
+   font-size: 200px;
+   text-align: center;
+   font-family: 'Cybrpnuk2';
+   font-weight: bolder;
+   color: white;
+   position: absolute;
+   margin: auto;
+   left: 0;
+   right: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   animation-name: likes;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+   animation-duration: 1s;
 }
 
-div.two{
-    all: initial;
-    font: size 200px;
-    font-size: 48px;
-    font-family: 'Farm to Market';
-    font-weight: bolder;
-    color: white;
-position: absolute;
-transform: translate(-3%,1%);
-letter-spacing: -0.05em;
- word-spacing: 0.2em;
+div.two {
+   all: initial;
+   font-size: 48px;
+   font-family: 'Farm to Market';
+   font-weight: bolder;
+   color: white;
+   position: absolute;
+   transform: translate(-3%, 1%);
+   letter-spacing: -0.05em;
+   word-spacing: 0.2em;
 }
 
-div.three{
-    font: size 400px;
-    font-size: 40px;
-    font-family: 'Farm to Market';
-    font-weight: bolder;
-    color: #b5ce5b;
-letter-spacing: -0.05em;
- word-spacing: 0.2em;
-position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-            width: 400px;
-            height: 400px;
-            transform: translate(-3%, 15%);
-            text-align: center;
-
+div.three {
+   font-size: 40px;
+   font-family: 'Farm to Market';
+   font-weight: bolder;
+   color: #b5ce5b;
+   letter-spacing: -0.05em;
+   word-spacing: 0.2em;
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+   width: 400px;
+   height: 400px;
+   transform: translate(-3%, 15%);
+   text-align: center;
 }
 
 div.four {
-    width:50%;
-     font: size 200px;
-         height: 290px;
-    font-size: 200px;
-    text-align:center;
-    font-family: 'Cybrpnuk2';
-    font-weight: bolder;
-    color: white;
-    position: absolute;
-            margin: auto;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            transform:translate(0%,260%)
+   width: 50%;
+   font-size: 200px;
+   height: 290px;
+   font-family: 'Cybrpnuk2';
+   font-weight: bolder;
+   color: white;
+   position: absolute;
+   margin: auto;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   transform: translate(0%, 260%);
 }
 
-
 @font-face {
-   font-family:'Cybrpnuk2';/*字体名称*/
-   src: url('Cybrpnuk2.ttf') ;/*字体源文件*/
+  font-family: 'Cybrpnuk2';
+  src: url('Cybrpnuk2.ttf');
 }
 @font-face {
-   font-family:'Farm to Market';/*字体名称*/
-   src: url('Farm\ to\ Market\ Bold\ Demo.ttf') ;/*字体源文件*/
+  font-family: 'Farm to Market';
+  src: url('Farm to Market Bold Demo.ttf');
 }
 
 @keyframes likes {
-		 0%{
-		      transform: scale(1);
-		   }
-		   25%{
-		      transform: scale(0.9);
-		   }
-		   50%{
-		      transform: scale(0.85);
-		   }
-		   75%{
-		      transform: scale(0.9);
-		   }
-		   100%{
-		      transform: scale(1);
-		   }
-         <div class="tab" @click="nav">
-         BI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LL
-         <div class="two">ADD ME TO YOUR CART<br>ADD ME TO YOUR CART<br>ADD ME TO YOUR CART<br>ADD ME TO YOUR CART</div>
-     </div>
-     <div class="three">
-         <p>Brand New Experience</p>
-         <p>Special Offer</p>
-         <p>Free Trail</p>
-         <p class="zoom-animation">OBEY</p> <!-- 添加了 zoom-animation 类 -->
-         <p>Buy me</p>
-         <p>New Arrival</p>
-         <p>Recently Choice</p>
-         <p>Up Perminum Services</p>
-     </div>
-     <div class="four">BOARD</div>
-	}
+   0% {
+       transform: scale(1);
+   }
+   25% {
+       transform: scale(0.9);
+   }
+   50% {
+       transform: scale(0.85);
+   }
+   75% {
+       transform: scale(0.9);
+   }
+   100% {
+       transform: scale(1);
+   }
+}
