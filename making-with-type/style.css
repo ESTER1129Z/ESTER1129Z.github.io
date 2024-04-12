@@ -61,48 +61,39 @@ position: absolute;
 }
 
 div.four {
-    width:50%;
-     font: size 200px;
-         height: 290px;
-    font-size: 200px;
-    text-align:center;
-    font-family: 'Cybrpnuk2';
-    font-weight: bolder;
-    color: white;
-    position: absolute;
-            margin: auto;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            transform:translate(0%,260%)
+   width: 50%;
+   height: 290px;
+   font-size: 200px;
+   text-align: center;
+   font-family: 'Cybrpnuk2';
+   font-weight: bolder;
+   color: white;
+   position: absolute;
+   margin: auto;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   transform: translate(0%, 260%);
 }
 
-
 @font-face {
-   font-family:'Cybrpnuk2';/*字体名称*/
-   src: url('Cybrpnuk2.ttf') ;/*字体源文件*/
+  font-family: 'Cybrpnuk2';
+  src: url('Cybrpnuk2.ttf');
 }
 @font-face {
-   font-family:'Farm to Market';/*字体名称*/
-   src: url('Farm\ to\ Market\ Bold\ Demo.ttf') ;/*字体源文件*/
+  font-family: 'Farm to Market';
+  src: url('Farm to Market Bold Demo.ttf');
 }
 
 @keyframes likes {
-		 0%{
-		      transform: scale(1);
-		   }
-		   25%{
-		      transform: scale(0.9);
-		   }
-		   50%{
-		      transform: scale(0.85);
-		   }
-		   75%{
-		      transform: scale(0.9);
-		   }
-		   100%{
-		      transform: scale(1);
-		   }
-      
-	}
+   0%, 100% {
+       color: white;
+   }
+   25%, 75% {
+       color: pink;
+   }
+   50% {
+       color: yellow;
+   }
+}
