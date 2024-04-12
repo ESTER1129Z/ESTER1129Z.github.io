@@ -80,16 +80,17 @@ body {
    position: absolute;
    top: 0;
    bottom: 0;
-   font-size: 30px; /* 调整字体大小 */
-   color: white;
+   font-size: 10px; /* 调整字体大小 */
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: violet;
 }
 .left-scrolling-text {
    position: fixed;
    top: 50%; /* 调整位置 */
    left: 10px; /* 调整左侧距离 */
    transform: translateY(-50%);
-   font-size: 20px; /* 调整字体大小 */
-   color: white;
+   font-size: 10px; /* 调整字体大小 */
+   color: violet;
 }
 
 .right-scrolling-text {
@@ -97,8 +98,8 @@ body {
    top: 50%; /* 调整位置 */
    right: 10px; /* 调整右侧距离 */
    transform: translateY(-50%);
-   font-size: 20px; /* 调整字体大小 */
-   color: white;
+   font-size: 10px; /* 调整字体大小 */
+   color: violet;
 }
 
 .left-obey {
