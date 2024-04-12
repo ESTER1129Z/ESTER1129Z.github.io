@@ -104,35 +104,19 @@ div.four {
 		   100%{
 		      transform: scale(1);
 		   }
-         <link rel="stylesheet" href="style.css">
-         <style>
-             @keyframes zoom {
-                 0% { font-size: 16px; }
-                 50% { font-size: 20px; }
-                 100% { font-size: 16px; }
-             }
-             
-             .zoom-animation {
-                 animation: zoom 5s infinite; /* 这里的3s表示动画时长，可以根据需要调整 */
-             }
-         </style>
-     </head>
-     
-     <body>
          <div class="tab" @click="nav">
-             BI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LL
-             <div class="two">ADD ME TO YOUR CART<br>ADD ME TO YOUR CART<br>ADD ME TO YOUR CART<br>ADD ME TO YOUR CART</div>
-         </div>
-         <div class="three">
-             <p>Brand New Experience</p>
-             <p>Special Offer</p>
-             <p>Free Trail</p>
-             <p class="zoom-animation">OBEY</p> <!-- 添加了 zoom-animation 类 -->
-             <p>Buy me</p>
-             <p>New Arrival</p>
-             <p>Recently Choice</p>
-             <p>Up Perminum Services</p>
-         </div>
-         <div class="four">BOARD</div>
-     </body>
+         BI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LL
+         <div class="two">ADD ME TO YOUR CART<br>ADD ME TO YOUR CART<br>ADD ME TO YOUR CART<br>ADD ME TO YOUR CART</div>
+     </div>
+     <div class="three">
+         <p>Brand New Experience</p>
+         <p>Special Offer</p>
+         <p>Free Trail</p>
+         <p class="zoom-animation">OBEY</p> <!-- 添加了 zoom-animation 类 -->
+         <p>Buy me</p>
+         <p>New Arrival</p>
+         <p>Recently Choice</p>
+         <p>Up Perminum Services</p>
+     </div>
+     <div class="four">BOARD</div>
 	}
