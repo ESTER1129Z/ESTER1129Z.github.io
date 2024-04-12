@@ -3,28 +3,33 @@ body {
 }
 
 div.tab {
-    width:50%;
-     font: size 400px;
-    font-size: 200px;
-    text-align:center;
-    font-family: 'Cybrpnuk2';
-    font-weight: bolder;
-    color: white;
-    position: absolute;
-    margin: auto;
-     left: 0;
-	right: 0;
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  position:relative;
-  animation-name: likes;
-	animation-direction: alternate;
-	animation-timing-function: linear;
-	animation-delay: 0s;
-	animation-iteration-count: infinite;
-	animation-duration: 1s;
+   width: 50%;
+   font-size: 200px;
+   text-align: center;
+   font-family: 'Cybrpnuk2';
+   font-weight: bolder;
+   color: white;
+   position: absolute;
+   margin: auto;
+   left: 0;
+   right: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   animation: likes 1s infinite alternate; /* 使用简写形式的动画属性 */
 }
+
+div.two {
+   all: initial;
+   font-size: 48px;
+   font-family: 'Farm to Market';
+   font-weight: bolder;
+   color: white;
+   position: absolute;
+   transform: translate(-3%, 1%);
+   letter-spacing: -0.05em;
+   word-spacing: 0.2em;
 
 div.two{
     all: initial;
@@ -39,25 +44,23 @@ letter-spacing: -0.05em;
  word-spacing: 0.2em;
 }
 
-div.three{
-    font: size 400px;
-    font-size: 40px;
-    font-family: 'Farm to Market';
-    font-weight: bolder;
-    color: #b5ce5b;
-letter-spacing: -0.05em;
- word-spacing: 0.2em;
-position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-            width: 400px;
-            height: 400px;
-            transform: translate(-3%, 15%);
-            text-align: center;
-
+div.three {
+   font-size: 40px;
+   font-family: 'Farm to Market';
+   font-weight: bolder;
+   color: #b5ce5b;
+   letter-spacing: -0.05em;
+   word-spacing: 0.2em;
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+   width: 400px;
+   height: 400px;
+   transform: translate(-3%, 15%);
+   text-align: center;
 }
 
 div.four {
