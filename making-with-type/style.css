@@ -1,5 +1,5 @@
 body {
-    background-color: #7764d3;
+   background-color: #7764d3;
 }
 
 div.tab {
@@ -17,7 +17,7 @@ div.tab {
    align-items: center;
    justify-content: center;
    position: relative;
-   animation: likes 1s infinite alternate; /* 使用简写形式的动画属性 */
+   animation: likes 1s infinite alternate;
 }
 
 div.two {
@@ -30,18 +30,6 @@ div.two {
    transform: translate(-3%, 1%);
    letter-spacing: -0.05em;
    word-spacing: 0.2em;
-
-div.two{
-    all: initial;
-    font: size 200px;
-    font-size: 48px;
-    font-family: 'Farm to Market';
-    font-weight: bolder;
-    color: white;
-position: absolute;
-transform: translate(-3%,1%);
-letter-spacing: -0.05em;
- word-spacing: 0.2em;
 }
 
 div.three {
@@ -81,12 +69,12 @@ div.four {
 }
 
 @font-face {
-  font-family: 'Cybrpnuk2';
-  src: url('Cybrpnuk2.ttf');
+   font-family: 'Cybrpnuk2';
+   src: url('Cybrpnuk2.ttf');
 }
 @font-face {
-  font-family: 'Farm to Market';
-  src: url('Farm to Market Bold Demo.ttf');
+   font-family: 'Farm to Market';
+   src: url('Farm to Market Bold Demo.ttf');
 }
 
 @keyframes likes {
@@ -99,4 +87,20 @@ div.four {
    50% {
        color: yellow;
    }
+}
+
+@keyframes zoom {
+   0% {
+       transform: scale(1);
+   }
+   50% {
+       transform: scale(1.2);
+   }
+   100% {
+       transform: scale(1);
+   }
+}
+
+div.three p:nth-child(5) {
+   animation: zoom 5s infinite;
 }
