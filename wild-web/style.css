@@ -1,0 +1,89 @@
+
+ 
+ /* setup project */
+
+body {
+    background-color: bisque;
+    margin:20px;
+  }
+  
+  div {
+    box-sizing:border-box;
+  }
+  
+  img {
+    width:100%;
+  }
+  
+  /* typography */
+  
+  
+  div.largetext {
+    font-size:10vw;
+    line-height:8vw;
+  }
+  
+  div.mediumtext {
+    font-size:27px;
+    line-height:32px;
+  }
+  
+  div.smalltext {
+    font-size:24px;
+    line-height:30px;
+  }
+  
+  div.sans {
+    font-family: arial;
+    font-weight: bold;
+  }
+  
+  div.serif {
+    font-family: times;
+  }
+  
+  /* colours */
+  
+  div.textbrown {
+    color:rgb(104, 79, 34);
+  }
+  
+  div.textwhite {
+    color:white;
+  }
+  
+  div.bgblue {
+    background-color: blue;
+  }
+  
+  /* layout w100, w80, w33, w66, w20 */
+  
+
+
+  div.w75 {
+    width: 75%;
+    padding:5px;
+  }
+  
+  div.w50 {
+    width: 50%;
+    padding:5px;
+  }
+  
+  div.w33 {
+    width: 33.333%;
+    padding:5px;
+  }
+  
+  div.w25 {
+    width: 25%;
+    padding:5px;
+  }
+  
+  /* design */
+  img2 {
+    width: 100%;
+  }
+  img3 {
+    width: 50px;
+  }
