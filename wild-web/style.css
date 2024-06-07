@@ -119,5 +119,14 @@ div.clickfarm {
 div.mono2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 25;
+  width: auto;
   margin-left: 1000px; 
+}
+
+div.mono3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 35;
+  margin-top: 60px;
+  text-align: center;
+  width: auto;
 }
